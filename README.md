@@ -56,7 +56,7 @@ En programación orientada a objetos en C++, ¿qué es una clase?
 
 ¿Qué son los templates en C++?
         a) Un tipo especial de clase.
-       **b) Permiten la creación de funciones y clases genéricas, es decir, que pueden trabajar con cualquier tipo de datos.**
+       **b) Permiten la creación de funciones y clases genéricas, es decir, que pueden trabajar con cualquier tipo de datos.Correcta(se puede escribir código que funcione con diferentes tipos de datos sin necesidad de duplicarlo para cada tipo.)**
         c) Una forma de definir variables.
         d) Una característica específica de C.
 
