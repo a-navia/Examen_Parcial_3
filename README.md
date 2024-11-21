@@ -41,24 +41,29 @@ Parte 1: Preguntas de elección múltiple (20%)
         **b) C utiliza printf y scanf mientras que C++ utiliza std::cout y std::cin.**
         c) No hay ninguna diferencia.
         d) C++ utiliza printf y scanf mientras que C utiliza std::cout y std::cin.
+        
+*B Correcta: En ambos lenguajes, C y C++, cada programa debe tener una función `main()`. Sin embargo, en C++ es más común utilizar `std::cout` y `std::cin` para la salida y entrada de datos en lugar de `printf()` y `scanf()` de C. printf para imprimir, scanf como teclado, y los mismo para std::cout y std::cin*
 
 ¿Qué es un espacio de nombres en C++?
         **a) Una característica que permite agrupar entidades como clases, objetos y funciones bajo un nombre.**
         b) Una manera de definir variables.
         c) Una función de la biblioteca estándar.
         d) Un tipo de ciclo en C++.
+        
+*A Correcta: C++ introduce los espacios de nombres (namespaces) para agrupar entidades como funciones, clases y objetos bajo un nombre común. El espacio de nombres `std` es el más comúnmente utilizado e incluye características estándar como `cout` y `cin`. Puedes usar la declaración `using namespace std;` para evitar escribir `std::` cada vez.*
 
 En programación orientada a objetos en C++, ¿qué es una clase?
         a) Una agrupación de funciones.
         b) Un tipo de variable.
         c) Un tipo de dato primitivo.
         **d) Una plantilla para crear objetos, proporciona una definición inicial para el estado (miembros de datos) y el comportamiento (miembros de la función).**
-
+*D Correcto: La estructura, los campos y las funciones que se aplican a estos campos. Esta estructura se convirtió en una clase. Las variables formadas a partir de una clase (las instancias), recibieron el nombre de objeto. *
 ¿Qué son los templates en C++?
         a) Un tipo especial de clase.
-       **b) Permiten la creación de funciones y clases genéricas, es decir, que pueden trabajar con cualquier tipo de datos.Correcta(se puede escribir código que funcione con diferentes tipos de datos sin necesidad de duplicarlo para cada tipo.)**
+       **b) Permiten la creación de funciones y clases genéricas, es decir, que pueden trabajar con cualquier tipo de datos.**
         c) Una forma de definir variables.
         d) Una característica específica de C.
+*B Correcto: con los templates, se puede escribir código que funcione con diferentes tipos de datos sin necesidad de duplicarlo para cada tipo. *
 
 Parte 2: Pregunta de desarrollo de código (80%)
 
