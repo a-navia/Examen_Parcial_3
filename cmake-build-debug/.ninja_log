@@ -1,0 +1,9 @@
+# ninja log v6
+5	119	7538842211749586	CMakeFiles/Examen_Parcial_3.dir/main.c.obj	4af919c3cc563ffd
+22	180	7538853446492874	CMakeFiles/Examen_Parcial_3.dir/Est.c.obj	d98f0d9a2cfddc4e
+180	484	7538853448055671	Examen_Parcial_3.exe	1796b26d69372279
+5	439	7538920266055444	build.ninja	ee93b24b8bf6d943
+16	132	7538853446422867	CMakeFiles/Examen_Parcial_3.dir/c_main.c.obj	606314a0bb870e49
+7	140	7538929053431942	CMakeFiles/Examen_Parcial_3.dir/c_main.c.obj	606314a0bb870e49
+19	163	7538929053543316	CMakeFiles/Examen_Parcial_3.dir/Est.c.obj	d98f0d9a2cfddc4e
+163	562	7538929054984981	Examen_Parcial_3.exe	1796b26d69372279
