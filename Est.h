@@ -3,7 +3,7 @@
 //definicion de constantes
 #define MAX_MATERIAS 10
 #define MAX_NOMBRE_MATERIA 50
-#define MAX_ASISTENCIAS 100
+#define MAX_ASISTENCIAS 120
 //declaracion de la estructura asistencia
 struct Asistencia {
     char fecha[11]; // formato "YYYY-MM-DD"

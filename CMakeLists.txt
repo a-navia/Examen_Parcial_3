@@ -4,6 +4,6 @@ project(Examen_Parcial_3 C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(Examen_Parcial_3
-    main.c
+        c_main.c
         Est.h
         Est.c)

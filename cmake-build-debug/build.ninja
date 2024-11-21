@@ -49,8 +49,8 @@ cmake_ninja_workdir = C$:/Users/navia/Examen_Parcial_3/cmake-build-debug/
 
 build cmake_object_order_depends_target_Examen_Parcial_3: phony || .
 
-build CMakeFiles/Examen_Parcial_3.dir/main.c.obj: C_COMPILER__Examen_Parcial_3_unscanned_Debug C$:/Users/navia/Examen_Parcial_3/main.c || cmake_object_order_depends_target_Examen_Parcial_3
-  DEP_FILE = CMakeFiles\Examen_Parcial_3.dir\main.c.obj.d
+build CMakeFiles/Examen_Parcial_3.dir/c_main.c.obj: C_COMPILER__Examen_Parcial_3_unscanned_Debug C$:/Users/navia/Examen_Parcial_3/c_main.c || cmake_object_order_depends_target_Examen_Parcial_3
+  DEP_FILE = CMakeFiles\Examen_Parcial_3.dir\c_main.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\Examen_Parcial_3.dir
   OBJECT_FILE_DIR = CMakeFiles\Examen_Parcial_3.dir
@@ -69,7 +69,7 @@ build CMakeFiles/Examen_Parcial_3.dir/Est.c.obj: C_COMPILER__Examen_Parcial_3_un
 #############################################
 # Link the executable Examen_Parcial_3.exe
 
-build Examen_Parcial_3.exe: C_EXECUTABLE_LINKER__Examen_Parcial_3_Debug CMakeFiles/Examen_Parcial_3.dir/main.c.obj CMakeFiles/Examen_Parcial_3.dir/Est.c.obj
+build Examen_Parcial_3.exe: C_EXECUTABLE_LINKER__Examen_Parcial_3_Debug CMakeFiles/Examen_Parcial_3.dir/c_main.c.obj CMakeFiles/Examen_Parcial_3.dir/Est.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Examen_Parcial_3.dir

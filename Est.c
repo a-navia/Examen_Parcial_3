@@ -18,7 +18,7 @@ void agregarMateria(struct Estudiante *estudiante, const char *materia) {
         estudiante->materias[estudiante->num_materias][MAX_NOMBRE_MATERIA - 1] = '\0';
         estudiante->num_materias++;
     } else {
-        printf("No se pueden agregar más materias.\n");//mensaje de error, ya qu ehay un numero definido de materias
+        printf("Error: No se pueden agregar más materias.\n");//mensaje de error, ya qu ehay un numero definido de materias
     }
 }
 //funcion para eliminar materias
@@ -35,7 +35,7 @@ void eliminarMateria(struct Estudiante *estudiante, const char *materia) {
         }
     }
     if (!found) { //si no se encontro la materia (usa el found de la linea 107)
-        printf("Materia no encontrada.\n");
+        printf("Error: Materia no encontrada.\n");
     }
 }
 //funcion para mostrar las materias
@@ -57,7 +57,7 @@ void registrarAsistencia(struct Estudiante *estudiante, const char *fecha, const
         estudiante->asistencias[estudiante->num_asistencias].estado[9] = '\0';
         estudiante->num_asistencias++; //aumenta el numero de asistencias
     } else {
-        printf("No se pueden registrar más asistencias.\n");
+        printf("limite de aasistencias\n");
     }
 }
 
