@@ -1,4 +1,5 @@
 # Examen_Parcial_3
+## Alejandro Duran, Anamaria Navia
 https://github.com/a-navia/Examen_Parcial_3.git
 Condiciones de Entrega del Examen de Programación en C++
 
