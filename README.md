@@ -57,13 +57,17 @@ En programación orientada a objetos en C++, ¿qué es una clase?
         b) Un tipo de variable.
         c) Un tipo de dato primitivo.
         **d) Una plantilla para crear objetos, proporciona una definición inicial para el estado (miembros de datos) y el comportamiento (miembros de la función).**
+
 *D Correcto: La estructura, los campos y las funciones que se aplican a estos campos. Esta estructura se convirtió en una clase. Las variables formadas a partir de una clase (las instancias), recibieron el nombre de objeto. *
+
 ¿Qué son los templates en C++?
         a) Un tipo especial de clase.
        **b) Permiten la creación de funciones y clases genéricas, es decir, que pueden trabajar con cualquier tipo de datos.**
         c) Una forma de definir variables.
         d) Una característica específica de C.
+
 *B Correcto: con los templates, se puede escribir código que funcione con diferentes tipos de datos sin necesidad de duplicarlo para cada tipo. *
+
 
 Parte 2: Pregunta de desarrollo de código (80%)
 
