@@ -152,4 +152,6 @@ Conclusión:
 Con base en tu experiencia y las implementaciones desarrolladas:
 
 ¿Cuál de los dos lenguajes consideras más adecuado para el proyecto del CGEA?
-    ¿Qué recomendaciones harías al equipo de desarrollo del CGEA para la siguiente fase del proyecto?
+-Con c++ tienes la herramienta de la programacion orientada a objetos y uso del new. C tambine se puede usar, pero puede ser mas complicado.
+¿Qué recomendaciones harías al equipo de desarrollo del CGEA para la siguiente fase del proyecto?
+-El uso de C++ y tener en cuenta gestion de memoria al seguir expandiendo la base de datos.
